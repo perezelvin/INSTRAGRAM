@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-primary{
+    background-color: yellowgreen;
+}
+.navbar{
+    background-color: white;
+    border-bottom: 5px solid black;
+    justify-content: space-between;
+    padding: 15px 100px;
+    align-items: center;
+        
+}
+.navbar div{
+    flex:1
+}
+ 
+.iconos{
+   
+}
+.d-flex{
+    display: flex;
+}
+.navbar search{
+    padding: 5px;
+}
+.content{
+    padding: 10px 130px;
+    gap:10px;
+    margin: 5px;
+ 
+       
+}
+.content .publications{
+    flex:2;
+    background-color: rgb(75, 70, 70);
+    height: 150px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.content .aside{
+    flex:1;
+    background-color: blue;
+    height: 170px;
+    
+}
+.content .publications .circulo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(194, 194, 194);
+    border: solid red;
+        
+}
